@@ -1,8 +1,5 @@
-﻿using System.Linq;
-using BepInEx;
-using GorillaNetworking;
+﻿using BepInEx;
 using HarmonyLib;
-using static GorillaNetworking.GorillaComputer;
 
 namespace GorillaOS
 {

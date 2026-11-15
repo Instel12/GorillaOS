@@ -1,6 +1,4 @@
-﻿using GorillaNetworking;
-using GorillaOS.Stuff;
-using HarmonyLib;
+﻿using HarmonyLib;
 
 namespace GorillaOS.Patches
 {
