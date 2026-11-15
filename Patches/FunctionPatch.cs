@@ -1,4 +1,5 @@
-﻿using HarmonyLib;
+﻿using GorillaNetworking;
+using HarmonyLib;
 
 namespace GorillaOS.Patches
 {
@@ -7,7 +8,7 @@ namespace GorillaOS.Patches
     {
         static void Prefix(ref bool fullScreen)
         {
-            fullScreen = false;
+            if (GorillaComputer.instance.currentState != GorillaComputer.ComputerState.Snake) fullScreen = false;
         }
     }
 }
